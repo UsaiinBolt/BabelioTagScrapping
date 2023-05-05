@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 24 18:06:12 2023
 
-@author: yoann
+@author: UsaiinBolt
 """
 
 import csv
@@ -51,7 +51,7 @@ if not(result):
 
 
 # Définir le chemin du répertoire contenant les fichiers CSV
-chemin = 'C:/Users/yoann/Documents/Projet librairie/csv_files'
+chemin = 'C:/Users/UsaiinBolt/Documents/Projet librairie/csv_files'
 
 # Parcourir tous les fichiers du répertoire
 fichiernumber = 1
