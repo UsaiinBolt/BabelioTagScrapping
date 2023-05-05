@@ -2,7 +2,7 @@
 """
 Created on Wed Mar 22 19:34:25 2023
 
-@author: yoann
+@author: UsaiinBolt
 """
 import requests
 from bs4 import BeautifulSoup
@@ -146,10 +146,3 @@ def Add_to_DB(url):
         db.commit()
     
     return #print('le livre ',book[1],' a été ajouté avec succes à la base de donnée')
-
-
-
-"""
-url = 'https://www.babelio.com/livres/Hogan-Le-prince-des-braqueurs/193311'
-soup = get_pages_data(url)
-"""
